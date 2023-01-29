@@ -1,10 +1,15 @@
 html {
-    background-color: grey;
+    background-color: lightgrey;
+}
+
+main {
+    padding: 5em 0;
 }
 
 .board {
     width: fit-content;
     margin: 0 auto;
+    border: solid 5px black;
 }
 
 .row {
@@ -22,4 +27,9 @@ html {
 
 .space-white {
     background-color: #E2DCC8;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
